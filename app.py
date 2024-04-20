@@ -1,10 +1,8 @@
 import streamlit as st
 import joblib
-from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 import re
 from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
 
 # Load NLTK resources
 nltk.download('stopwords')
